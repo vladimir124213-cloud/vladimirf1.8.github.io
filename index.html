@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Владимир — фотограф · Портрет, документальная съёмка, Москва</title>
+  <meta name="description" content="Владимир — фотограф в Москве. Портретная и документальная съёмка в естественном свете: люди, пары, истории и бренды. 5 000 ₽ в час.">
+  <meta name="theme-color" content="#faf8f4">
+
+  <!-- ЗАМЕНИТЬ перед публикацией: USERNAME/REPO в трёх местах ниже
+       (canonical, og:url, og:image + twitter:image).
+       Если репозиторий называется USERNAME.github.io, адрес будет
+       https://USERNAME.github.io/ — без /REPO/ в конце. -->
+  <link rel="canonical" href="https://USERNAME.github.io/REPO/">
+
+  <!-- Open Graph / соцсети -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Владимир — фотограф">
+  <meta property="og:url" content="https://USERNAME.github.io/REPO/">
+  <meta property="og:title" content="Владимир — фотограф">
+  <meta property="og:description" content="Портретная и документальная съёмка в естественном свете. 5 000 ₽ в час.">
+  <meta property="og:image" content="https://USERNAME.github.io/REPO/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Владимир — фотограф, Москва">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://USERNAME.github.io/REPO/images/og-image.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23faf8f4'/%3E%3Ccircle cx='16' cy='16' r='6.5' fill='none' stroke='%23181513' stroke-width='1.4'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#works">Перейти к работам</a>
+
+  <!-- ======================= ШАПКА ======================= -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <!-- ЗАМЕНИТЬ: имя / бренд -->
+      <a class="brand" href="#top" aria-label="Владимир — на главную">
+        <span class="brand-name">Владимир</span>
+        <span class="brand-role">photographer</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#works">Работы</a>
+        <a href="#about">Обо мне</a>
+        <a href="#services">Съёмки</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <div class="header-side">
+        <!-- ЗАМЕНИТЬ: ссылка на Telegram/почту -->
+        <a class="btn btn-line header-cta" href="#contact">Написать</a>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ======================= ОБЛОЖКА ======================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker reveal">Фотограф · Москва</p>
+          <h1 class="hero-title reveal" id="hero-title" style="--d:.06s">
+            Свет,<br>который<br><em>остаётся</em>
+          </h1>
+          <p class="hero-lead reveal" style="--d:.12s">
+            Портретная и документальная съёмка в естественном свете.
+            Мягкие кадры о людях, деталях и тихих моментах, к которым
+            хочется возвращаться.
+          </p>
+          <div class="hero-actions reveal" style="--d:.18s">
+            <a class="btn btn-solid" href="#works">Смотреть работы</a>
+            <a class="link-arrow" href="#contact">Обсудить съёмку<span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <figure class="hero-media reveal" style="--d:.1s">
+          <img src="images/photo-01.jpg" alt="Портрет в мягком естественном свете" width="1200" height="1600">
+          <figcaption>Кадр из серии «Утро в комнате» · 2025</figcaption>
+        </figure>
+      </div>
+
+      <div class="container hero-foot">
+        <span class="hero-foot-label">01 — Портфолио</span>
+        <a class="scroll-hint" href="#works" aria-label="Прокрутить к работам">
+          <span class="scroll-line" aria-hidden="true"></span>
+          <span class="scroll-text">листайте</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================= ПОРТФОЛИО ======================= -->
+    <section class="section works" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker reveal">Избранное · 2018—2025</p>
+          <h2 class="display reveal" id="works-title" style="--d:.05s">Работы</h2>
+          <p class="section-note reveal" style="--d:.1s">
+            Шесть кадров, которые лучше всего объясняют, как я вижу.
+            Нажмите на снимок, чтобы открыть его крупнее.
+          </p>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <!-- ЗАМЕНИТЬ: файлы в папке images (сохраняйте те же имена и пропорции).
+               Порядок подобран так, чтобы колонки заканчивались на одном уровне:
+               в каждой колонке сначала высокий кадр, затем невысокий. -->
+          <figure class="work reveal" style="--d:.02s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-01.jpg"
+                    data-caption="Утро в комнате · Портрет">
+              <img src="images/photo-01.jpg" alt="Утро в комнате — портрет" loading="lazy" width="1200" height="1600">
+            </button>
+            <figcaption>
+              <span class="work-title">Утро в комнате</span>
+              <span class="work-meta">Портрет</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal" style="--d:.05s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-02.jpg"
+                    data-caption="Окно · Документальное">
+              <img src="images/photo-02.jpg" alt="Окно — документальный кадр" loading="lazy" width="1600" height="1067">
+            </button>
+            <figcaption>
+              <span class="work-title">Окно</span>
+              <span class="work-meta">Документальное</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal" style="--d:.08s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-03.jpg"
+                    data-caption="Северный свет · Портрет">
+              <img src="images/photo-03.jpg" alt="Северный свет — портрет" loading="lazy" width="1200" height="1500">
+            </button>
+            <figcaption>
+              <span class="work-title">Северный свет</span>
+              <span class="work-meta">Портрет</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal" style="--d:.11s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-04.jpg"
+                    data-caption="Дом у моря · История">
+              <img src="images/photo-04.jpg" alt="Дом у моря — история" loading="lazy" width="1600" height="1000">
+            </button>
+            <figcaption>
+              <span class="work-title">Дом у моря</span>
+              <span class="work-meta">История</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal" style="--d:.14s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-05.jpg"
+                    data-caption="Вдвоём · Пара">
+              <img src="images/photo-05.jpg" alt="Вдвоём — съёмка пары" loading="lazy" width="1000" height="1400">
+            </button>
+            <figcaption>
+              <span class="work-title">Вдвоём</span>
+              <span class="work-meta">Пара</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal" style="--d:.17s">
+            <button class="work-btn" type="button"
+                    data-full="images/photo-06.jpg"
+                    data-caption="Сад после дождя · Природа">
+              <img src="images/photo-06.jpg" alt="Сад после дождя — природа" loading="lazy" width="1600" height="1067">
+            </button>
+            <figcaption>
+              <span class="work-title">Сад после дождя</span>
+              <span class="work-meta">Природа</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ОБО МНЕ ======================= -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <figure class="about-media reveal">
+          <img src="images/about-portrait.jpg" alt="Фотограф в мастерской у окна" loading="lazy" width="1000" height="1250">
+          <figcaption>Москва · 2025</figcaption>
+        </figure>
+
+        <div class="about-text">
+          <p class="kicker reveal">02 — Обо мне</p>
+          <h2 class="display reveal" id="about-title" style="--d:.05s">
+            Фотография как способ<br><em>смотреть внимательно</em>
+          </h2>
+          <div class="prose reveal" style="--d:.1s">
+            <p>
+              Меня зовут Владимир. Восемь лет я снимаю людей — в их домах, на улицах,
+              у воды и в мастерских. Мне интересно не идеальное, а настоящее:
+              как падает свет в четыре часа дня, как человек поправляет воротник,
+              когда думает, что его никто не видит.
+            </p>
+            <p>
+              Работаю в естественном свете и почти без постановки. Помогаю
+              расслабиться перед камерой — даже если вы уверены, что
+              «не фотогеничны». Из съёмки вы уходите с историей, а не с набором
+              одинаковых улыбок.
+            </p>
+          </div>
+
+          <dl class="stats reveal" style="--d:.14s">
+            <div>
+              <dt>Опыт</dt>
+              <dd>8 лет</dd>
+            </div>
+            <div>
+              <dt>Съёмок</dt>
+              <dd>300+</dd>
+            </div>
+            <div>
+              <dt>Городов</dt>
+              <dd>12</dd>
+            </div>
+          </dl>
+
+          <p class="about-signature reveal" style="--d:.18s">
+            <a class="link-arrow" href="#contact">Посмотреть, свободен ли я<span aria-hidden="true">→</span></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= УСЛУГИ ======================= -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="kicker reveal">03 — Съёмки</p>
+            <h2 class="display reveal" id="services-title" style="--d:.05s">Что я снимаю</h2>
+          </div>
+          <p class="section-note reveal" style="--d:.1s">
+            Все форматы — в естественном свете. Съёмка — 5 000 ₽ в час,
+            минимальный заказ — 2 часа. Помогаю с идеей, локацией
+            и подбором образа.
+          </p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service reveal">
+            <span class="service-num">01</span>
+            <div class="service-main">
+              <h3>Портретная съёмка</h3>
+              <p>Индивидуальная съёмка для себя, для сайта или в подарок. Мягкий свет, спокойный темп, 2–3 часа времени.</p>
+            </div>
+            <span class="service-detail">минимум 2 часа</span>
+            <span class="service-price">5 000 ₽ / час</span>
+          </li>
+
+          <li class="service reveal" style="--d:.06s">
+            <span class="service-num">02</span>
+            <div class="service-main">
+              <h3>Свадьбы и пары</h3>
+              <p>Тихий документальный репортаж без постановки: день как он есть — обычно 10–12 часов, без спешки и неловких поз.</p>
+            </div>
+            <span class="service-detail">10–12 часов</span>
+            <span class="service-price">5 000 ₽ / час</span>
+          </li>
+
+          <li class="service reveal" style="--d:.12s">
+            <span class="service-num">03</span>
+            <div class="service-main">
+              <h3>Бренды и контент</h3>
+              <p>Съёмка для брендов одежды, керамики и небольших студий: фактуры, детали, свет и атмосфера.</p>
+            </div>
+            <span class="service-detail">минимум 4 часа</span>
+            <span class="service-price">5 000 ₽ / час</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= КОНТАКТЫ ======================= -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="kicker reveal">04 — Контакты</p>
+        <h2 class="contact-title reveal" id="contact-title" style="--d:.05s">
+          Расскажите<br>о своей <em>идее</em>
+        </h2>
+
+        <div class="contact-grid">
+          <div class="contact-lead reveal" style="--d:.1s">
+            <p class="prose">
+              Свободен для съёмок в Москве и с выездом. Отвечаю в течение
+              дня — напишите пару слов о задумке и удобных датах,
+              а я предложу варианты.
+            </p>
+            <!-- ЗАМЕНИТЬ: почта -->
+            <a class="contact-mail" href="mailto:hello@yourname.ru">
+              hello@yourname.ru
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+            </a>
+            <p class="contact-meta">Отвечаю обычно в течение одного дня · Пн—Сб</p>
+          </div>
+
+          <nav class="socials reveal" style="--d:.14s" aria-label="Соцсети">
+            <!-- ЗАМЕНИТЬ: ссылки -->
+            <a class="social" href="https://t.me/vladimirvolkovs" target="_blank" rel="noopener">
+              <span class="social-name">Telegram</span>
+              <span class="social-handle">@vladimirvolkovs</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social" href="https://instagram.com/yourname" target="_blank" rel="noopener">
+              <span class="social-name">Instagram</span>
+              <span class="social-handle">@yourname</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social" href="https://vk.com/yourname" target="_blank" rel="noopener">
+              <span class="social-name">VK</span>
+              <span class="social-handle">vk.com/yourname</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social" href="https://behance.net/yourname" target="_blank" rel="noopener">
+              <span class="social-name">Behance</span>
+              <span class="social-handle">behance.net/yourname</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= ПОДВАЛ ======================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Владимир<span>фотограф · Москва</span></p>
+      <p class="footer-note">© <span id="year">2026</span> · Все права защищены</p>
+      <a class="footer-top" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- ======================= ЛАЙТБОКС ======================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии" hidden>
+    <button class="lb-close" type="button" aria-label="Закрыть">✕</button>
+    <button class="lb-nav lb-prev" type="button" aria-label="Предыдущая фотография">←</button>
+    <figure class="lb-figure">
+      <img id="lb-image" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" type="button" aria-label="Следующая фотография">→</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
