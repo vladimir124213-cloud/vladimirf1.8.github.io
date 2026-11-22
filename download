@@ -1,0 +1,15 @@
+# служебный мусор
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# временные профили браузера и скриншоты для проверки вёрстки
+.edge-cdp/
+.edge-shot/
+.chrome-shot/
+.shots/
+shots/
+
+# зависимости, если появятся
+node_modules/
